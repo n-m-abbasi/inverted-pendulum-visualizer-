@@ -1,35 +1,37 @@
-Inverted Pendulum Visualization Tool
-This repository contains a standalone MATLAB visualization function for animating the inverted pendulum on a cart.
+# Inverted Pendulum Visualization Tool
+
+This repository contains a standalone MATLAB visualization function for animating the inverted pendulum on a cart.  
 It is used across all nonlinear, linear, and IO‑control simulations.
 
-Overview
-The visualization tool provides a simple and clear animation of the cart and pendulum motion.
+## Overview
+
+The visualization tool provides a simple and clear animation of the cart and pendulum motion.  
 It helps interpret simulation results and makes the system behavior easier to understand.
 
-Files Included
-visSim_cart_pole.m — Animation and visualization function
+## Files Included
 
-Features
-Real‑time pendulum animation
+- visSim_cart_pole.m — Animation and visualization function
 
-Cart movement visualization
+## Features
 
-Compatible with all simulation scripts
+- Real‑time pendulum animation  
+- Cart movement visualization  
+- Compatible with all simulation scripts  
+- Easy to integrate into other projects  
 
-Easy to integrate into other projects
+## Usage
 
-Usage
 Call the function with time, position, and angle data:
 
 visSim_cart_pole([t, pos, ang], ref)
 
-Project Goals
-Provide a reusable visualization module
+## Project Goals
 
-Improve interpretability of simulation results
+- Provide a reusable visualization module  
+- Improve interpretability of simulation results  
+- Keep the visualizer independent from other projects  
 
-Keep the visualizer independent from other projects
+## License
 
-License
-This project is for academic and portfolio purposes.
+This project is for academic and portfolio purposes.  
 Feel free to use or modify the code with proper credit.
